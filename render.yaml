@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: evidencias-ml-api
+    env: docker
+    plan: free
+    branch: main
+    dockerfilePath: ./Dockerfile
+    buildCommand: ""
+    startCommand: ""
+    healthCheckPath: /status
