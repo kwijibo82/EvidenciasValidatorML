@@ -1,6 +1,9 @@
 from fastapi import FastAPI, HTTPException
 from fastapi.responses import PlainTextResponse
 from app.train import entrenar_modelo
+from app.validator import validar_evidencia
+from fastapi.responses import JSONResponse
+import re
 import os
 import traceback
 from fastapi import FastAPI, UploadFile, File, Form
