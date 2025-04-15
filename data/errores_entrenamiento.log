@@ -1,0 +1,1674 @@
+[ERROR] Fallo procesando Jaume_Badia_Sala_CIRSA_01_2025.png: Imagen no encontrada: data\raw\Jaume_Badia_Sala_CIRSA_01_2025.png
+[ERROR] Fallo procesando Jesus_Alejandro_Pobes_CIRSA_01_2025.png: Imagen no encontrada: data\raw\Jesus_Alejandro_Pobes_CIRSA_01_2025.png
+[ERROR] Fallo procesando Joel_Miro_Planella_CIRSA_01_2025.png: Imagen no encontrada: data\raw\Joel_Miro_Planella_CIRSA_01_2025.png
+[ERROR] Fallo procesando Ruben_Belmonte_Lanzas_CIRSA_01_2025.jpg: Imagen no encontrada: data\raw\Ruben_Belmonte_Lanzas_CIRSA_01_2025.jpg
+[ERROR] Fallo procesando Axel_Arroyo_Giménez_CIRSA_01_2025.png: Imagen no encontrada: data\raw\axel_arroyo_giménez_cirsa_01_2025png
+[ERROR] Fallo procesando Axel_Arroyo_Giménez_CIRSA_01_2025.png: Imagen no encontrada: data\raw\axel_arroyo_giménez_cirsa_01_2025png
+[ERROR] Fallo procesando Axel_Arroyo_Giménez_CIRSA_01_2025.png: Imagen no encontrada: data\raw\axel_arroyo_giménez_cirsa_01_2025png
+[ERROR] Fallo procesando Axel_Arroyo_Giménez_CIRSA_01_2025.png: Imagen no encontrada: data\raw\axel_arroyo_giménez_cirsa_01_2025png
+[ERROR] Fallo procesando Axel_Arroyo_Giménez_CIRSA_01_2025.png: Imagen no encontrada: data\raw\axel_arroyo_giménez_cirsa_01_2025png
+[ERROR] Fallo procesando Axel_Arroyo_Giménez_CIRSA_01_2025.png: Imagen no encontrada: data\raw\axel_arroyo_giménez_cirsa_01_2025png
+[ERROR] Fallo procesando Axel_Arroyo_Giménez_CIRSA_01_2025.png: Imagen no encontrada: data\raw\axel_arroyo_giménez_cirsa_01_2025png
+[ERROR] Fallo procesando Axel_Arroyo_Giménez_CIRSA_01_2025.png: Imagen no encontrada: data\raw\axel_arroyo_giménez_cirsa_01_2025png
+[ERROR] Fallo procesando Axel_Arroyo_Giménez_CIRSA_01_2025.png: Imagen no encontrada: data\raw\axel_arroyo_giménez_cirsa_01_2025png
+[ERROR] Fallo procesando Axel_Arroyo_Giménez_CIRSA_01_2025.png: Imagen no encontrada: data\raw\axel_arroyo_giménez_cirsa_01_2025png
+[ERROR] Fallo procesando Axel_Arroyo_Giménez_CIRSA_01_2025.png: Imagen no encontrada: data\raw\axel_arroyo_giménez_cirsa_01_2025png
+[ERROR] Fallo procesando Axel_Arroyo_Giménez_CIRSA_01_2025.png: Imagen no encontrada: data\raw\axel_arroyo_giménez_cirsa_01_2025png
+[ERROR] Fallo procesando Axel_Arroyo_Giménez_CIRSA_01_2025.png: Imagen no encontrada: data\raw\axel_arroyo_giménez_cirsa_01_2025png
+[ERROR] Fallo procesando Axel_Arroyo_Giménez_CIRSA_01_2025.png: Imagen no encontrada: data\raw\axel_arroyo_giménez_cirsa_01_2025png
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidadorML\micro-trainer-service\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
