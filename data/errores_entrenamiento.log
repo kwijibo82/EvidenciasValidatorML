@@ -2592,3 +2592,187 @@ Traceback (most recent call last):
                       ^^
 NameError: name 'os' is not defined. Did you forget to import 'os'?
 
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidatorML\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidatorML\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidatorML\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidatorML\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidatorML\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidatorML\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidatorML\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidatorML\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidatorML\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidatorML\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidatorML\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidatorML\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidatorML\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidatorML\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidatorML\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidatorML\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidatorML\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidatorML\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidatorML\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidatorML\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidatorML\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidatorML\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidatorML\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidatorML\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidatorML\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidatorML\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidatorML\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidatorML\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidatorML\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidatorML\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidatorML\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidatorML\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidatorML\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidatorML\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidatorML\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidatorML\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidatorML\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidatorML\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidatorML\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidatorML\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidatorML\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidatorML\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidatorML\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidatorML\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
+Traceback (most recent call last):
+  File "C:\Projects\EvidenciasValidatorML\app\train.py", line 24, in entrenar_modelo
+    nombre_normalizado = normalizar_nombre_archivo(original_filename)
+  File "C:\Projects\EvidenciasValidatorML\app\utils.py", line 29, in normalizar_nombre_archivo
+    base, extension = os.path.splitext(nombre)
+                      ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+
