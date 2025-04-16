@@ -1,14 +1,10 @@
-from fastapi import FastAPI, HTTPException
+from fastapi import FastAPI, HTTPException, UploadFile, File, Form
 from fastapi.responses import PlainTextResponse
-from app.train import entrenar_modelo
+from app.train_model import entrenar_modelo
 from app.validator import validar_evidencia
-from fastapi.responses import JSONResponse
-import re
+from datetime import date
 import os
 import traceback
-from fastapi import FastAPI, UploadFile, File, Form
-from datetime import date
-
 
 app = FastAPI(title="TrainerService - ML clásico")
 
@@ -18,10 +14,9 @@ def status():
 
 @app.post("/train")
 def entrenar():
-    print("[DEBUG] Entrando al endpoint /train")
-    try: 
+    try:
         entrenar_modelo()
-        return {"message": "Entrenamiento completado"}
+        return {"message": "Entrenamiento completado correctamente"}
     except Exception as e:
         error_str = "".join(traceback.format_exception(type(e), e, e.__traceback__))
         print("[ERROR]", error_str)
@@ -32,15 +27,14 @@ def ver_logs():
     ruta_log = "data/errores_entrenamiento.log"
     if not os.path.exists(ruta_log):
         raise HTTPException(status_code=404, detail="No se ha generado ningún log de errores todavía.")
-    
     with open(ruta_log, "r", encoding="utf-8") as f:
         return f.read()
-    
+
 @app.post("/validate")
-async def validate_image(
+async def validate(
     file: UploadFile = File(...),
-    autor_esperado: str = Form(...),
     cliente_proyecto: str = Form(...),
+    autor_esperado: str = Form(...),
     fecha_min: date = Form(...),
     fecha_max: date = Form(...)
 ):
@@ -49,9 +43,7 @@ async def validate_image(
         resultado = validar_evidencia(
             contenido, autor_esperado, cliente_proyecto, fecha_min, fecha_max
         )
+        print("[DEBUG] Resultado:", resultado)
         return resultado
     except Exception as e:
-        return JSONResponse(
-            status_code=500,
-            content={"detail": f"Error interno: {str(e)}"}
-        )
+        raise HTTPException(status_code=500, detail=f"Error al validar evidencia: {str(e)}")
