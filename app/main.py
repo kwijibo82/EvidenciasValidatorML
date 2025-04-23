@@ -1,12 +1,23 @@
 from fastapi import FastAPI, HTTPException, UploadFile, File, Form
-from fastapi.responses import PlainTextResponse
+from fastapi.responses import JSONResponse, PlainTextResponse
+from fastapi.middleware.cors import CORSMiddleware
 from app.train_model import entrenar_modelo
 from app.validator import validar_evidencia
 from datetime import date
-import os
 import traceback
+import os
 
 app = FastAPI(title="TrainerService - ML clásico")
+
+# CORS settings
+origins = ["http://localhost:4200", "http://127.0.0.1:4200"]
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=origins,
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 @app.get("/status")
 def status():
@@ -19,7 +30,6 @@ def entrenar():
         return {"message": "Entrenamiento completado correctamente"}
     except Exception as e:
         error_str = "".join(traceback.format_exception(type(e), e, e.__traceback__))
-        print("[ERROR]", error_str)
         raise HTTPException(status_code=500, detail=f"Error en entrenamiento:\n{error_str}")
 
 @app.get("/logs", response_class=PlainTextResponse)
@@ -33,17 +43,24 @@ def ver_logs():
 @app.post("/validate")
 async def validate(
     file: UploadFile = File(...),
-    cliente_proyecto: str = Form(...),
     autor_esperado: str = Form(...),
-    fecha_min: date = Form(...),
-    fecha_max: date = Form(...)
+    cliente_proyecto: str = Form(...),
+    fecha_min: str = Form(...),
+    fecha_max: str = Form(...),
+    primer_apellido: str = Form(...),
+    segundo_apellido: str = Form(None),
 ):
     try:
         contenido = await file.read()
+        print(f"[DEBUG]::: Archivo recibido - nombre: {file.filename}, tamaño: {len(contenido)} bytes")
         resultado = validar_evidencia(
-            contenido, autor_esperado, cliente_proyecto, fecha_min, fecha_max
+            contenido,
+            autor_esperado,
+            cliente_proyecto,
+            date.fromisoformat(fecha_min),
+            date.fromisoformat(fecha_max),
         )
-        print("[DEBUG] Resultado:", resultado)
-        return resultado
+        return JSONResponse(content=resultado, status_code=200)
     except Exception as e:
-        raise HTTPException(status_code=500, detail=f"Error al validar evidencia: {str(e)}")
+        error_str = "".join(traceback.format_exception(type(e), e, e.__traceback__))
+        raise HTTPException(status_code=500, detail=f"Error en validación:\n{error_str}")
