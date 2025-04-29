@@ -23,8 +23,6 @@ Servicio backend basado en FastAPI que utiliza OCR + Machine Learning para valid
 └── README.md                  # Documentación
 ```
 
----
-
 ## 🚀 Instrucciones de Uso
 
 ### 1. Clonar el Repositorio
@@ -40,31 +38,23 @@ venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
-### 2.1 Después de ahí, es posible levantar el backend con un script en el archivo run.bat
-
-```
+### 2.1 Levantar el backend con el script
+```bash
 .\run.bat
 ```
 
-### 3. Estructura esperada del CSV, siendo el campo Apellido 2 opcional.
-El archivo `data/labels.csv` debe tener este formato:
-
+### 3. Estructura esperada del CSV
 ```csv
 filename,autor,fecha
-Nombre_Apellido1_Apellido2_Proyecto_Mes(mm)_Anio(YYYY).png,
+Nombre_Apellido1_Apellido2_Proyecto_Mes(mm)_Anio(YYYY).png,Autor,Fecha
 ...
 ```
 
-Las imágenes deben estar en la carpeta `data/raw/`.
-
 ### 4. Entrenar el modelo
-Puedes entrenar el modelo desde la API o manualmente:
-
 #### Desde la API
 ```bash
 curl -X POST http://localhost:8000/train
 ```
-
 #### Desde consola
 ```bash
 python -m app.entrenar_manual
@@ -75,26 +65,23 @@ python -m app.entrenar_manual
 uvicorn app.main:app --reload
 ```
 
-### 6. Acceder al Swagger
-```
+### 6. Acceder a Swagger
+```bash
 http://localhost:8000/docs
 ```
-
----
 
 ## 🧪 Endpoint de Validación
 
 **POST /validate**
 
-Campos del formulario:
-
+Formulario:
 - `file`: imagen
 - `cliente_proyecto`: nombre del cliente
-- `autor_esperado`: autor a validar
-- `fecha_min`: fecha mínima permitida (YYYY-MM-DD)
-- `fecha_max`: fecha máxima permitida (YYYY-MM-DD)
+- `autor_esperado`: autor esperado
+- `fecha_min`: fecha mínima (YYYY-MM-DD)
+- `fecha_max`: fecha máxima (YYYY-MM-DD)
 
-Respuesta esperada (JSON):
+Respuesta esperada:
 ```json
 {
   "autor_detectado": "John Doe",
@@ -105,8 +92,6 @@ Respuesta esperada (JSON):
   "fecha_valida": true
 }
 ```
-
----
 
 ## 🐳 Docker
 
@@ -120,15 +105,11 @@ docker build -t evidencias-validator .
 docker run -p 8000:8000 evidencias-validator
 ```
 
----
-
 ## ⚠️ IMPORTANTE
 
-- Tesseract debe estar instalado y accesible desde el entorno.
-- La calidad del OCR mejora con imágenes nítidas y contrastadas.
+- Tesseract debe estar instalado y accesible.
+- La calidad del OCR mejora con imágenes claras.
 - Actualmente se usa un modelo Naive Bayes; puede evolucionar a redes neuronales si se incrementa el dataset.
-
----
 
 ## 📬 Devs
 
