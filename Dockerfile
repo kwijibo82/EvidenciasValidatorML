@@ -1,22 +1,26 @@
-FROM python:3.10-slim
+# Imagen base con Python y apt para instalar Tesseract
+FROM python:3.11-slim
 
-# Instalar dependencias del sistema (incluye tesseract)
-RUN apt-get update && apt-get install -y \
-    tesseract-ocr \
-    libgl1-mesa-glx \
-    && rm -rf /var/lib/apt/lists/*
+# Evita interacción en instalación
+ENV DEBIAN_FRONTEND=noninteractive
 
-# Crear y usar directorio de trabajo
+# Instala Tesseract y dependencias de sistema
+RUN apt-get update && \
+    apt-get install -y tesseract-ocr libtesseract-dev libleptonica-dev poppler-utils gcc build-essential && \
+    apt-get clean && \
+    rm -rf /var/lib/apt/lists/*
+
+# Establece el directorio de trabajo
 WORKDIR /app
 
-# Copiar los archivos del proyecto
+# Copia los archivos del proyecto
 COPY . .
 
-# Instalar dependencias de Python
+# Instala las dependencias de Python
 RUN pip install --no-cache-dir -r requirements.txt
 
-# Puerto expuesto
+# Exposición del puerto (Render usa $PORT env var)
 EXPOSE 8000
 
-# Comando por defecto: iniciar Uvicorn (Render también lo usará)
+# Comando de arranque
 CMD ["uvicorn", "app.main:app", "--host", "0.0.0.0", "--port", "8000"]
