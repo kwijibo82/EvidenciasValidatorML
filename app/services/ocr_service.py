@@ -1,11 +1,13 @@
 import pytesseract
 from PIL import Image
 import io
+import platform
 
-# Ruta de Tesseract para Windows (ajusta si usas Linux o Mac)
-pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
+# Detectar sistema operativo y ajustar ruta de Tesseract solo si es Windows
+if platform.system() == "Windows":
+    pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
 
-# Idiomas OCR a usar (deben estar instalados en Tesseract)
+# Idiomas OCR a usar (deben estar instalados)
 IDIOMAS = "spa+eng+cat+glg+eus"
 
 def extraer_texto_ocr(imagen: Image.Image) -> str:
@@ -18,8 +20,4 @@ def extraer_texto_ocr(imagen: Image.Image) -> str:
     Returns:
         str: Texto extraído.
     """
-    try:
-        texto = pytesseract.image_to_string(imagen, lang=IDIOMAS)
-        return texto.strip()
-    except Exception as e:
-        return f"ERROR OCR: {str(e)}"
+    return pytesseract.image_to_string(imagen, lang=IDIOMAS)
