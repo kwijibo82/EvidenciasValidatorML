@@ -1,10 +1,9 @@
 services:
   - type: web
-    name: evidencias-ml-api
+    name: evidencias-validator
     env: docker
     plan: free
-    branch: main
-    dockerfilePath: ./Dockerfile
-    buildCommand: ""
-    startCommand: ""
-    healthCheckPath: /status
+    dockerfilePath: Dockerfile
+    envVars:
+      - key: PYTHONUNBUFFERED
+        value: "1"
