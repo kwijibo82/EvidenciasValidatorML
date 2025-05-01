@@ -5,6 +5,8 @@ from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.linear_model import LogisticRegression
 from app.services.ocr_service import extraer_texto_ocr
 from sklearn.model_selection import train_test_split
+import unicodedata
+import re
 
 MODELOS_PATH = "app/modelos"
 DATA_PATH = "data"
@@ -25,13 +27,19 @@ def entrenar_modelos():
 
     errores = []
 
-    df = pd.read_csv(LABELS_PATH)
+    df = pd.read_csv(LABELS_PATH, encoding="utf-8")
+
+    # Protegemos las columnas opcionales si no existen
+    if 'cliente' not in df.columns:
+        df['cliente'] = None
+    if 'fecha' not in df.columns:
+        df['fecha'] = None
 
     for idx, row in df.iterrows():
-        filename = row['filename']
-        autor = row['autor']
-        cliente = row.get('cliente', None)
-        fecha = row.get('fecha', None)
+        filename = row['filename'] #OJO! jamás normalizar el filename, es el nombre del archivo y es agonóstico del sistema
+        autor = normalizar_texto(row['autor'])
+        cliente = normalizar_texto(row.get('cliente'))
+        fecha = normalizar_texto(row.get('fecha'))
 
         ruta_imagen = os.path.join(RAW_PATH, filename)
 
@@ -83,12 +91,10 @@ def entrenar_modelos():
     fechas_unicas = list(set(fechas))
 
     if len(fechas_unicas) == 1:
-        # Si todas las fechas son iguales, guardar como constante
         fecha_fija = fechas_unicas[0]
         with open(os.path.join(MODELOS_PATH, "fecha_fija.txt"), "w", encoding="utf-8") as f:
             f.write(fecha_fija)
         print(f"✅ Guardada fecha fija {fecha_fija} (sin modelo de fecha).")
-        model_fecha = None
     else:
         model_fecha = LogisticRegression(max_iter=1000)
         model_fecha.fit(X, fechas)
@@ -101,3 +107,17 @@ def entrenar_modelos():
     joblib.dump(model_cliente, os.path.join(MODELOS_PATH, "modelo_cliente.pkl"))
 
     print("\n🏁 Proceso de entrenamiento finalizado.")
+
+
+def normalizar_texto(texto: str) -> str:
+    """
+    Normaliza el texto eliminando acentos y caracteres especiales.
+    """
+    if not texto:
+        return ""
+    texto = ''.join(
+        c for c in unicodedata.normalize('NFD', texto)
+        if unicodedata.category(c) != 'Mn'
+    ).lower().strip()
+    texto = re.sub(r'[^a-z0-9\s]', '', texto)
+    return texto
