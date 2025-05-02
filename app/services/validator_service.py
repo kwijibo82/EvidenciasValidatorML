@@ -47,7 +47,6 @@ def validar_evidencia(autor_predicho, cliente_predicho, fecha_predicha, datos_re
                 # Asumimos YYYY-MM-DD
                 fecha_dt = datetime.strptime(fecha_predicha, "%Y-%m-%d").date()
             else:
-                # Puedes añadir más formatos si lo deseas
                 print(f"[!] Formato de fecha OCR no reconocido: {fecha_predicha}")
 
             if fecha_dt:

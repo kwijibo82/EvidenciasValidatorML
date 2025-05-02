@@ -11,10 +11,8 @@ import traceback
 import io
 from PIL import Image
 
-# Inicializar FastAPI
 app = FastAPI(title="Evidencias Validator ML")
 
-# Configurar CORS (ajusta los orígenes según tu frontend)
 origins = ["http://localhost:4200", "http://127.0.0.1:4200"]
 app.add_middleware(
     CORSMiddleware,
@@ -24,10 +22,8 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-# Cargar modelos al iniciar la app
-vectorizer, model_autor, model_cliente, model_fecha, _ = load_models()
+vectorizer, model_autor, model_cliente, model_fecha, fecha_fija = load_models()
 
-# Cargar autores y clientes conocidos (opcional para ver en Swagger)
 labels_path = "data/labels.csv"
 if os.path.exists(labels_path):
     labels_df = pd.read_csv(labels_path)
@@ -37,16 +33,12 @@ else:
     autores_conocidos = []
     clientes_conocidos = []
 
-
 @app.get("/status")
 def status():
-    """Check de estado simple."""
     return {"status": "ok"}
-
 
 @app.post("/train")
 def train():
-    """Lanza el proceso de entrenamiento."""
     try:
         entrenar_modelos()
         return {"message": "Entrenamiento completado correctamente"}
@@ -54,16 +46,13 @@ def train():
         error_str = "".join(traceback.format_exception(type(e), e, e.__traceback__))
         raise HTTPException(status_code=500, detail=f"Error en entrenamiento:\n{error_str}")
 
-
 @app.get("/logs", response_class=PlainTextResponse)
 def ver_logs():
-    """Consulta el log de errores del último entrenamiento."""
     ruta_log = "data/errores_entrenamiento.log"
     if not os.path.exists(ruta_log):
         raise HTTPException(status_code=404, detail="No se ha generado ningún log de errores todavía.")
     with open(ruta_log, "r", encoding="utf-8") as f:
         return f.read()
-
 
 @app.post("/validate")
 async def validate(
@@ -73,21 +62,12 @@ async def validate(
     fecha_desde: str = Form(...),
     fecha_hasta: str = Form(...)
 ):
-    """
-    Valida una evidencia subida:
-    - Compara autor OCR vs autor esperado.
-    - Compara cliente OCR vs cliente esperado.
-    - Valida que la fecha OCR esté en el rango dado.
-    """
     try:
-        # Leer la imagen recibida
         contents = await file.read()
         image = Image.open(io.BytesIO(contents))
-
-        # OCR para extraer texto
         texto_extraido = extraer_texto_ocr(image)
 
-        # IA: predecir autor, cliente y fecha
+        # Realizar predicciones usando IA
         pred_autor, pred_cliente, pred_fecha = predict_fields(
             texto_extraido,
             vectorizer,
@@ -96,7 +76,7 @@ async def validate(
             model_fecha
         )
 
-        # Validación usando la función centralizada
+        # Validaciones mejoradas
         datos_referencia = {
             "autor": autor,
             "cliente": cliente,
@@ -106,14 +86,17 @@ async def validate(
 
         resultado_validacion = validar_evidencia(pred_autor, pred_cliente, pred_fecha, datos_referencia)
 
-        # Respuesta final
+        # Comprobar si el autor existe en el CSV (lista de autores conocidos)
+        autor_existe = autor.strip().lower() in [a.strip().lower() for a in autores_conocidos]
+
         return {
             "autor_detectado": pred_autor,
             "autor_valido": resultado_validacion["autor_valido"],
             "cliente_detectado": pred_cliente,
             "cliente_valido": resultado_validacion["cliente_valido"],
             "fecha_detectada": pred_fecha,
-            "fecha_valida": resultado_validacion["fecha_valida"]
+            "fecha_valida": resultado_validacion["fecha_valida"],
+            "autor_existe": autor_existe
         }
 
     except Exception as e:
